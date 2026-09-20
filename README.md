@@ -15,6 +15,7 @@ The analysis focuses on rider type, weekday and weekend behavior, peak demand by
 
 ![NYC vs DC Bikeshare Dashboard](Dashboard.png)
 
+The dashboard was built in Power BI. The original `.pbix` file is not included in this repository because of its file size, so a full dashboard preview is provided above.
 ## Key Findings
 
 1. Across both systems, the analysis covers **7.63 million trips**.
@@ -49,8 +50,9 @@ My contribution also included developing the **problem statement, recommendation
 | Capital Bikeshare | Washington, DC trip data for 2016 and 2017     |
 | Station data      | Station information for both bikeshare systems |
 
-The project datasets are included in the `datasets/` folder.
+The repository includes the datasets that fit within GitHub's standard file size limits. The 2016 and 2017 Capital Bikeshare trip files are not included because both exceed GitHub's 100 MB per file limit.
 
+The analysis and dashboard were completed using the full datasets.
 ## Tools
 
 `SQL` · `Power BI`
@@ -58,19 +60,16 @@ The project datasets are included in the `datasets/` folder.
 ## Repo Contents
 
 ```text
-NYC-DC-Bikeshare-Analysis/
+NYC_vs_DC_Bikeshare_Analysis/
 ├── README.md
 ├── Dashboard.png
-├── Abeer_Radhi_CitiBikeshare_lab.pbix
 ├── datasets/
-│   ├── capitalbikeshare_2016.csv
-│   ├── capitalbikeshare_2017.csv
 │   ├── capitalbikeshare_stations.csv
 │   ├── citibike-2016.csv
 │   ├── citibike-2017.csv
 │   └── citibike-stations.csv
 └── presentation/
-    └── Abeer_Radhi_CitiBikeshare_lab.pptx
+    └── Abeer_Radhi_CitiBikeshare_lab.pdf
 ```
 
 ## Limitations
